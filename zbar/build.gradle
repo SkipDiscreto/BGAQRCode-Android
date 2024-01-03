@@ -1,8 +1,7 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
 
 android {
-    compileSdkVersion ANDROID_BUILD_SDK_VERSION as int
+    compileSdk ANDROID_BUILD_SDK_VERSION as int
 
     defaultConfig {
         minSdkVersion ANDROID_BUILD_MIN_SDK_VERSION as int
